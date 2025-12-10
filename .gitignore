@@ -1,0 +1,43 @@
+# Xcode
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Pods
+Pods/
+Podfile.lock
+
+# Swift Package Manager
+.build/
+.swiftpm/
+*.xcodeproj/xcshareddata/xcschemes/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode local user-specific settings
+*.xcworkspace/xcuserdata/
+
+# Build artifacts
+*.app
+*.app.dSYM.zip
+
+# Dependencies
+Carthage/Build/
+
+# Environment variables
+.env
+.env.local
